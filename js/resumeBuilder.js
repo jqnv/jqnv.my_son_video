@@ -2,9 +2,8 @@
 This is empty on purpose! Your code to build the resume will go here.
  */
 
-var email="cameron@udacity.com";
+var name="Joaquín Vásquez";
 
-var newemail =email.replace("udacity", "gmail");
+var formattedName=HTMLheaderName.replace(%data%, name);
 
-console.log(email);
-console.log(newemail);
+$("#header").append(formattedName);
