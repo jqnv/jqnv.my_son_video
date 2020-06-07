@@ -2,12 +2,9 @@
 This is empty on purpose! Your code to build the resume will go here.
  */
 
-var name="Joaquín Vásquez";
-var role="Web Developer";
-
-var formattedName=HTMLheaderName.replace("%data%", name);
-var formattedRole=HTMLheaderRole.replace("%data%",role);
+var name="audacity";
+var newname=name.replace(name.slice(0, 1));
 
 //$("#header").append(formattedName, formattedRole);
-$("#header").prepend(formattedRole);
-$("#header").prepend(formattedName);
+$("#header").prepend(newname);
+//$("#header").prepend(formattedName);
