@@ -2,7 +2,9 @@
 This is empty on purpose! Your code to build the resume will go here.
  */
 
-var name="Arturo";
-var awesomeThoughts ="I am Arturo and I am AWESOME";
+var email="cameron@udacity.com";
 
-console.log(awesomeThoughts);
+var newemail =email.replace("udacity", "gmail");
+
+console.log(email);
+console.log(newemail);
