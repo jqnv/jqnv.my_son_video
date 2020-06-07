@@ -1,8 +1,23 @@
-/*
-This is empty on purpose! Your code to build the resume will go here.
- */
+var sampleArray = [0,0,7];
 
-var skills=["awesomeness","programming","teaching","JS"];
+var incrementLastArrayElement = function(_array) {
+    var newArray = _array;
+    // Your code should make newArray equal to an array that has the same
+    // values as _array, but the last number has increased by one.
 
-//$("#main").append(skills);
-$("#main").append(skills[0]);
+    // For example:
+    // _array = [1, 2, 3];
+    // turns into:
+    // newArray = [1, 2, 4];
+
+    // Your code goes in here!
+
+    var newValue=newArray.pop()+1;
+    newArray=newArray.push(newValue);
+
+    // Don't delete this line!
+    return newArray;
+};
+
+// Did your code work? The line below will tell you!
+console.log(incrementLastArrayElement(sampleArray));
