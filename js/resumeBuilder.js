@@ -6,5 +6,5 @@ var name="audacity";
 var newname=name.replace(name.slice(0, 1),"U");
 
 //$("#header").append(formattedName, formattedRole);
-$("#header").prepend(newname);
+$("#header").append(newname);
 //$("#header").prepend(formattedName);
